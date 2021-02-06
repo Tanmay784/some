@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>age in days</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-1">
+		<h1>1. Your age in days</h1>
+		<div class="flex-box-container-1">
+			<div>
+				<button class="btn btn-primary" onclick="getage()">click me</button>
+			</div>
+			<div>
+				<button class="btn btn-danger" onclick="reset()">reset</button>
+			</div>
+		</div>
+		<div class="flex-box-container-1">
+			<div id="flex-box-result"></div>
+		</div>
+	
+	<div class="container-2">
+		<h2>2.Cat generator</h2>
+		<button class="btn btn-success" onclick="catgen()">Genrate cat</button>
+		<div class="flex-box-2" id="cat-gen"></div>
+	</div>
+
+	<!-- rock paper scissor -->
+	<div class="container-3">
+		<h1>3. rock paper scissor</h1>
+		<div class="flex-box-3" id="flex-rps">
+			<img id="papper" src="C:\Users\tanmay\Desktop\javascript\paper.jpg" alt="" height="150px"; width="150px" onclick="humanrps(this)">
+			<img id="rock" src="C:\Users\tanmay\Desktop\javascript\rock.jpg" alt="" height="150px"; width="150px" onclick="humanrps(this)">
+			<img id="scissor" src="C:\Users\tanmay\Desktop\javascript\scissor.jpg" alt="" height="150px"; width="150px" onclick="humanrps(this)">
+		</div>
+	</div>
+
+</div>
+</body>
+<script src="home.js"></script>
+</html>
