@@ -1,5 +1,5 @@
 function getage() {
-    let dob=prompt("enter DOB in this format day/month/year (example 2/4/1990)");
+    let dob=prompt("enter DOB in this format day/month/year example 2/4/1990");
     let lis=dob.split('/')
     var birthyear=parseInt(lis[2]);
     var birthmonth=parseInt(lis[1]);
